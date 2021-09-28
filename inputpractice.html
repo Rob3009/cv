@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Inputpractice</title>
+</head>
+
+<body>
+  <h1>Input Element Practice</h1>
+  <form class="" action="index.html" method="post">
+    <label for="Username">Name (4-8 Characters):</label>
+    <input type="text" id="name" name="name" required min="4" maxlength="8">
+    <input type="submit" value="Submit"><br>
+    <label for="D.O.B">Your Date of Birth</label>
+    <input type="datetime-local"id="D.O.B" name="D.O.B" value="2021-09-27T22:11"min="2021-09-27T22:11"max="2021-9-30T24:00"><br>
+    <label for="avatar">Choose a Profile Picture</label>
+    <input type="file" id="avatar" name="avatar" accept="image/jpeg,image/png"><br>
+    <label for="pass">Password(8 Character Minimum):</label>
+    <input type="password"id="pass" name="password"min="8" required>
+    <input type="submit"  value="Submit">
+  </form>
+
+</body>
+
+</html>
